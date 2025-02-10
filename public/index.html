@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vin Validators</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Validadores</h1>
+    <div class="Validadores">
+
+      <div class="Types">
+        <p>1- Vin Validator (ISO)</p>
+        <input type="text" placeholder="Digite o VIN/Chassi" maxlength="17">
+        <button onclick="VinValidator(this)">Validar</button>
+        <div class="result"></div>
+      </div>
+      <div class="Types">
+        
+        <p>2- Regex Vin Validator Object</p>
+        <input type="text" placeholder="Digite o VIN/Chassi" maxlength="17">
+        <button onclick="validarVinRegexObject(this)">Validar</button>
+        <div class="result"></div>
+      </div>
+
+      <div class="Types">
+        <p>3- Regex Vin Validator</p>
+        <input type="text" placeholder="Digite o VIN/Chassi" maxlength="17">
+        <button onclick="validarVinRegex(this)">Validar</button>
+        <div class="result"></div>
+      </div>
+
+      <div class="Types">
+        <p>4- Simple Validator</p>
+        <input type="text" placeholder="Digite o VIN/Chassi" maxlength="17">
+        <button onclick="validarSimpleVin(this)">Validar</button>
+        <div class="result"></div>
+      </div>
+      <div class="Types">
+
+      <div class="Types">
+        <p>5- JS Vin Validator</p>
+        <input type="text" placeholder="Digite o VIN/Chassi" maxlength="17">
+        <button onclick="">Validar</button>
+        <div class="result"></div>
+      </div>
+
+      <!-- <div class="Types">
+        <p>5- Decoder Vin</p>
+        <input type="text"  placeholder="Digite o VIN/Chassi" maxlength="17">
+        <button onclick="">Validar</button>
+        <div class="result"></div>
+      </div> -->
+
+      <div class="Clear">
+        <button onclick="Clean()">Limpar</button>
+      </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+  <script src="../src/validators/vinValidator.js"></script>
+  <script src="../src/validators/regexVinValidatorObject.js"></script>
+  <script src="../src/validators/regexVinValidator.js"></script>
+  <script src="../src/validators/jsVinValidator.js"></script>
+  <script src="../src/validators/decoderVin.js"></script>
+  <script src="../src/validators/simpleValidator.js"></script>
+  <script src="../src/tools/clear.js"></script>
+</body>
+</html>
+
+
+      <!-- 9C2KC1640AR014340 -->
